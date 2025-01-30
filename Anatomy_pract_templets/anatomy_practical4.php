@@ -467,7 +467,7 @@ $practical_number = "A4"
            
                 
                 <div>
-                    <form  action="questionnaire.php" method="GET">
+                    <form  action="../questionnaire.php" method="GET">
                         <!-- Pass the practical number as a GET parameter -->
                         <input type="hidden" name="practical_number" value="<?php echo htmlspecialchars($practical_number); ?>">
                         <button type="submit" class="styled-button">Ir al cuestionario</button>
