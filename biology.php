@@ -134,19 +134,19 @@ if (!isset($_SESSION['username']) || !isset($_SESSION['role'])) {
         <div class="bio-content">
             <h1>Prácticas de biología</h1>
             <div class="practicals-buttons">
-                <a href="Biology_Prac_Templates/Bio Prac 1.php" class="bio-button">Practica 1</a>
-                <a href="Biology_Prac_Templates/Bio Prac 2.php" class="bio-button">Practica 2</a>
-                <a href="Biology_Prac_Templates/Bio Prac 3.php" class="bio-button">Practica 3</a>
-                <a href="Biology_Prac_Templates/Bio Prac 4.php" class="bio-button">Practica 4</a>
-                <a href="Biology_Prac_Templates/Bio Prac 5.php" class="bio-button">Practica 5</a>
-                <a href="Biology_Prac_Templates/Bio Prac 6.php" class="bio-button">Practica 6</a>
-                <a href="Biology_Prac_Templates/Bio Prac 7.php" class="bio-button">Practica 7</a>
-                <a href="Biology_Prac_Templates/Bio Prac 8.php" class="bio-button">Practica 8</a>
-                <a href="Biology_Prac_Templates/Bio Prac 9.php" class="bio-button">Practica 9</a>
-                <a href="Biology_Prac_Templates/Bio Prac 10.php" class="bio-button">Practica 10</a>
-                <a href="Biology_Prac_Templates/Bio Prac 11.php" class="bio-button">Practica 11</a>
-                <a href="Biology_Prac_Templates/Bio Prac 12.php" class="bio-button">Practica 12</a>
-                <a href="Biology_Prac_Templates/Bio Prac 13.php" class="bio-button">Practica 13</a>
+                <a href="Biology_Prac_Templates/Bio_Prac_1.php" class="bio-button">Practica 1</a>
+                <a href="Biology_Prac_Templates/Bio_Prac_2.php" class="bio-button">Practica 2</a>
+                <a href="Biology_Prac_Templates/Bio_Prac_3.php" class="bio-button">Practica 3</a>
+                <a href="Biology_Prac_Templates/Bio_Prac_4.php" class="bio-button">Practica 4</a>
+                <a href="Biology_Prac_Templates/Bio_Prac_5.php" class="bio-button">Practica 5</a>
+                <a href="Biology_Prac_Templates/Bio_Prac_6.php" class="bio-button">Practica 6</a>
+                <a href="Biology_Prac_Templates/Bio_Prac_7.php" class="bio-button">Practica 7</a>
+                <a href="Biology_Prac_Templates/Bio_Prac_8.php" class="bio-button">Practica 8</a>
+                <a href="Biology_Prac_Templates/Bio_Prac_9.php" class="bio-button">Practica 9</a>
+                <a href="Biology_Prac_Templates/Bio_Prac_10.php" class="bio-button">Practica 10</a>
+                <a href="Biology_Prac_Templates/Bio_Prac_11.php" class="bio-button">Practica 11</a>
+                <a href="Biology_Prac_Templates/Bio_Prac_12.php" class="bio-button">Practica 12</a>
+                <a href="Biology_Prac_Templates/Bio_Prac_13.php" class="bio-button">Practica 13</a>
             </div>
             </div>
         </div>

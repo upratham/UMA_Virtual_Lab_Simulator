@@ -30,7 +30,7 @@ def load_questions_from_csv(file_path):
         return []
 
 # Load questions on startup
-questions = load_questions_from_csv('questions_2.csv')
+questions = load_questions_from_csv('Flask_app/questions_2.csv')
 
 # Root endpoint
 @app.route('/', methods=['GET'])
@@ -144,4 +144,4 @@ def performance_graph():
 
 # Run the app
 if __name__ == '__main__':
-    app.run(debug=True, host='127.0.0.1', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5000)
