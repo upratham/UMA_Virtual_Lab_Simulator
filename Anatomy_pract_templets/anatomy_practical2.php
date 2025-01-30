@@ -1,5 +1,6 @@
 <?php
 include '../dbconnect.php';
+include '../header.php';
 $practical_number = "A2"
 ?>
 
