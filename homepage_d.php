@@ -157,7 +157,7 @@ if (!isset($_SESSION['username']) || !isset($_SESSION['role'])) {
 
     <!-- Logo in the upper left corner -->
     <header>
-        <img src="Images/logo_UMA.png" alt="UMA Logo" class="site-logo">
+        <img src="Iamges/logo_UMA.png" alt="UMA Logo" class="site-logo">
     </header>
 
     <!-- User Profile Section -->
