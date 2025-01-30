@@ -1,0 +1,8 @@
+matplotlib==3.7.1
+io
+pandas==1.5.1
+math
+flask_cors==5.0.0
+flask==2.2.3
+flask_limiter==3.8.0
+sentence_transformers==3.1.0

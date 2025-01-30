@@ -88,18 +88,18 @@ if (!isset($_SESSION['username']) || !isset($_SESSION['role'])) {
             
             <h1>Prácticas de anatomía </h1>
             <div id="anatomy-buttons">
-                <a href="anatomy_practical1.php" class="anat-button">Práctica 1</a>
-                <a href="anatomy_practical2.php" class="anat-button">Práctica 2</a>
-                <a href="anatomy_practical3.php" class="anat-button">Práctica 3</a>
-                <a href="anatomy_practical4.php" class="anat-button">Práctica 4</a>
-                <a href="anatomy_practical5.php" class="anat-button">Práctica 5</a>
-                <a href="anatomy_practical6.php" class="anat-button">Práctica 6</a>
-                <a href="anatomy_practical7.php" class="anat-button">Práctica 7</a>
-                <a href="anatomy_practical8.php" class="anat-button">Práctica 8</a>
-                <a href="anatomy_practical9.php" class="anat-button">Práctica 9</a>
-                <a href="anatomy_practical10.php" class="anat-button">Práctica 10</a>
-                <a href="anatomy_practical11.php" class="anat-button">Práctica 11</a>
-                <a href="anatomy_practical12.php" class="anat-button">Práctica 12</a>
+                <a href="Anatomy_pract_templets\anatomy_practical1.php" class="anat-button">Práctica 1</a>
+                <a href="Anatomy_pract_templets\anatomy_practical2.php" class="anat-button">Práctica 2</a>
+                <a href="Anatomy_pract_templets\anatomy_practical3.php" class="anat-button">Práctica 3</a>
+                <a href="Anatomy_pract_templets\anatomy_practical4.php" class="anat-button">Práctica 4</a>
+                <a href="Anatomy_pract_templets\anatomy_practical5.php" class="anat-button">Práctica 5</a>
+                <a href="Anatomy_pract_templets\anatomy_practical6.php" class="anat-button">Práctica 6</a>
+                <a href="Anatomy_pract_templets\anatomy_practical7.php" class="anat-button">Práctica 7</a>
+                <a href="Anatomy_pract_templets\anatomy_practical8.php" class="anat-button">Práctica 8</a>
+                <a href="Anatomy_pract_templets\anatomy_practical9.php" class="anat-button">Práctica 9</a>
+                <a href="Anatomy_pract_templets\anatomy_practical10.php" class="anat-button">Práctica 10</a>
+                <a href="Anatomy_pract_templets\anatomy_practical11.php" class="anat-button">Práctica 11</a>
+                <a href="Anatomy_pract_templets\anatomy_practical12.php" class="anat-button">Práctica 12</a>
 
             </div>
         </div>

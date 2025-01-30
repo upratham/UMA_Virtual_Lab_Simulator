@@ -17,7 +17,7 @@ body {
 
 /* Body - Index Page */
 body#index-page {
-    background: url('uma fRONT.jpg') no-repeat center center/cover;
+    background: url('Images/uma fRONT.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: flex-start; /* Align content at the top */
@@ -30,11 +30,13 @@ header {
     position: absolute;
     top: 20px;
     left: 20px;
+    
 }
 
 .site-logo {
     width: 200px; /* Adjust the size as needed */
     height: auto;
+    text-align: ce;
 }
 
 /* Virtual Lab Section */
@@ -95,7 +97,7 @@ header {
 
 /* Anatomy Page Specific Styles */
 body#anatomy-page {
-    background: url('human_anatomy.jpg') no-repeat top center;
+    background: url('Images/human_anatomy.jpg') no-repeat top center;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -175,7 +177,7 @@ body#anatomy-page {
 }
 /* Chemistry Page Specific Styles */
 body#chemistry-page {
-    background: url('chem2.jpg') no-repeat center center/cover;
+    background: url('Images/chem2.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -213,7 +215,7 @@ body#chemistry-page {
 }
 /* Biology Page Specific Styles */
 body#biology-page {
-    background: url('bilogy.jpg') no-repeat center center/cover;
+    background: url('Images/bilogy.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -249,3 +251,19 @@ body#biology-page {
     background: rgba(255, 255, 255, 0.4);
     color: #000;
 }
+body#homepage header {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+body#register-page {
+    background: url('Images/uma fRONT.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000; /* Text color set to black */
+}
+

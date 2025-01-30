@@ -1,24 +1,11 @@
 <?php
-session_start();
-if (!isset($_SESSION['username'])) {
-    header("Location: index.html");
-    exit();
-}
+include 'dbconnect.php';
+
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $current_password = $_POST['current_password'];
-    $new_password = $_POST['new_password'];
-    $confirm_password = $_POST['confirm_password'];
-    $username = $_SESSION['username'];
-
-    // Database connection settings
-    $sname = "localhost";
-    $uname = "root";
-    $db_password = "Captain@56";
-    $db_name = "virtual_lab_sim";
-
-    // Create a connection using the provided settings
-    $conn = mysqli_connect($sname, $uname, $db_password, $db_name, 3307);
+    $student_username = $_POST['student_username'];
+    $student_password = $_POST['student_password'];
+    
 
     // Check connection
     if (!$conn) {

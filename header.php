@@ -6,42 +6,92 @@ if (!isset($_SESSION['username']) || !isset($_SESSION['role'])) {
 }
 ?>
 
-<!-- Header with username and logout option -->
-<header class="user-header">
-    <div class="user-info">
-        Hello, <strong><?php echo htmlspecialchars($_SESSION['username']); ?></strong>
-        <a href="logout.php" class="logout-link">Log Out</a>
-    </div>
-</header>
-
+<!-- Profile Section with Styling -->
 <style>
-    .user-header {
-        background-color: #f0f0f0;
-        padding: 10px 20px;
-        text-align: right;
+    .user-profile {
         position: fixed;
-        top: 0;
-        width: 100%;
+        top: 10px;
+        right: 10px;
+        text-align: right;
         z-index: 1000;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
-    
-    .user-info {
-        font-size: 16px;
-    }
-    
-    .logout-link {
-        margin-left: 20px;
-        color: #e40d5e;
-        text-decoration: none;
+
+    .user-profile .user-name {
         font-weight: bold;
+        margin-bottom: 5px;
     }
-    
-    .logout-link:hover {
+
+    .user-profile .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .user-profile .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #f9f9f9;
+        min-width: 150px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .user-profile .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .user-profile .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+    .user-profile .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .back-button {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        background-color: transparent;
+        border: none;
+        color: #000;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+    }
+
+    .back-button:hover {
         text-decoration: underline;
     }
-    
-    body {
-        padding-top: 60px; /* Add padding to ensure content is not hidden behind the fixed header */
+
+    .back-arrow {
+        margin-right: 5px;
+        font-size: 18px;
     }
 </style>
+
+<!-- Back Button -->
+<button class="back-button" onclick="history.back()">
+    <span class="back-arrow">&#8592;</span> Atrás
+</button>
+
+<!-- User Profile Section -->
+<div class="user-profile">
+    <div class="user-name">Hola, <strong><?php echo htmlspecialchars($_SESSION['username']); ?></strong></div>
+    <div class="dropdown">
+        <span>perfil ▼</span>
+        <div class="dropdown-content">
+            <a href="#" onclick="openModal('changePasswordModal')"> Cambiar la contraseña</a>
+            <a href="../logout.php">cerrar sesión</a>
+            <?php if ($_SESSION['role'] === 'director'): ?>
+                <a href="#" onclick="openModal('addStudentModal')"> Agregar estudiante</a>
+            <?php endif; ?>
+        </div>
+    </div>
+</div>

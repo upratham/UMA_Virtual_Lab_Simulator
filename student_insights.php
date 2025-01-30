@@ -1,18 +1,12 @@
 <?php
+include 'dbconnect.php';
 session_start();
 if (!isset($_SESSION['username']) || !isset($_SESSION['role'])) {
     header("Location: index.html");
     exit();
 }
 
-// Database connection
-$sname = "localhost";
-$uname = "root";
-$db_password = "Captain@56";
-$db_name = "virtual_lab_sim";
-$db_port = 3307;
 
-$conn = new mysqli($sname, $uname, $db_password, $db_name, $db_port);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

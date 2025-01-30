@@ -1,15 +1,9 @@
 <?php
+include 'dbconnect.php';
 session_start();
 
-// Database connection details
-$sname = "localhost";
-$uname = "root";
-$db_password = "Captain@56";
-$db_name = "virtual_lab_sim";
-$db_port = 3307;
 
-// Create a connection
-$conn = mysqli_connect($sname, $uname, $db_password, $db_name, $db_port);
+
 if (!$conn) {
     die(json_encode(["status" => "error", "message" => "Database connection failed: " . mysqli_connect_error()]));
 }

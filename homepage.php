@@ -180,7 +180,7 @@ if (!isset($_SESSION['username']) || !isset($_SESSION['role'])) {
             <h1>UMA Laboratorio Virtual</h1>
             <div class="subject-buttons">
                 <a href="biology.php" class="lab-button">Biologia</a>
-                <a href="chemistry.php" class="lab-button">Quimica</a>
+                <a href="chemistry.php" class="lab-button">Quimica General</a>
                 <a href="anatomy.php" class="lab-button">Anatomia</a>
             </div>
         </div>

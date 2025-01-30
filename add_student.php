@@ -1,26 +1,13 @@
 <?php
-session_start();
-if (!isset($_SESSION['username']) || $_SESSION['role'] !== 'director') {
-    header("Location: index.html");
-    exit();
-}
+include 'dbconnect.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $student_username = $_POST['student_username'];
     $student_password = $_POST['student_password'];
-
-    // Database connection settings
-    $sname = "localhost";
-    $uname = "root";
-    $db_password = "Captain@56";
-    $db_name = "virtual_lab_sim";
-
-    // Create a connection using the provided settings
-    $conn = mysqli_connect($sname, $uname, $db_password, $db_name, 3307);
-
+    
     // Check connection
     if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
+        die("Conexión fallida: " . mysqli_connect_error());
     }
 
     // Hash the password before storing it
@@ -31,9 +18,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bind_param("ss", $student_username, $hashed_password);
 
     if ($stmt->execute()) {
-        echo "New student added successfully!";
+        echo "<script>
+            alert('¡Nuevo estudiante añadido con éxito!');
+            window.location.href = 'homepage_d.php';
+        </script>";
     } else {
-        echo "Error: " . $stmt->error;
+        echo "<script>
+            alert('Error: " . $stmt->error . "');
+            window.history.back();
+        </script>";
     }
 
     // Close connections
@@ -41,4 +34,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $conn->close();
 }
 ?>
-<a href="homepage.php">Back to Homepage</a>

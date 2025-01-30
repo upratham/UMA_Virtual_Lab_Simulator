@@ -1,4 +1,5 @@
 <?php
+ include 'dbconnect.php';
 session_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'];
@@ -12,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $db_name = "virtual_lab_sim";
 
     // Create a connection using the provided settings
-    $conn = mysqli_connect($sname, $uname, $db_password, $db_name, 3307);
+    //$conn = mysqli_connect($sname, $uname, $db_password, $db_name, 3307);
 
     // Check connection
     if (!$conn) {

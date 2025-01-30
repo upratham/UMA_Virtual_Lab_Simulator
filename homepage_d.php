@@ -181,7 +181,7 @@ if (!isset($_SESSION['username']) || !isset($_SESSION['role'])) {
             <div class="subject-buttons">
                 <a href="student_insights.php" class="lab-button">Rendimiento de los estudiantes</a>
                 <a href="biology.php" class="lab-button">Biologia</a>
-                <a href="chemistry.php" class="lab-button">Química</a>
+                <a href="chemistry.php" class="lab-button">Química General</a>
                 <a href="anatomy.php" class="lab-button">Anatomia</a>
             </div>
         </div>

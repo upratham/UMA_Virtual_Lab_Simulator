@@ -1,17 +1,10 @@
 <?php
+include 'dbconnect.php';
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'];
     $password = $_POST['password'];
     $role = $_POST['role'];
-
-    // Database connection settings
-    $sname = "localhost";
-    $uname = "root";
-    $db_password = "Captain@56";
-    $db_name = "virtual_lab_sim";
-
-    // Create a connection
-    $conn = mysqli_connect($sname, $uname, $db_password, $db_name, 3307);
 
     // Check connection
     if (!$conn) {
@@ -26,7 +19,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($result->num_rows > 0) {
         // Username already exists
-        echo "Username already taken. Please choose a different one.";
+        echo "<script>
+            alert('El nombre de usuario ya está en uso. Por favor, elija uno diferente.');
+            window.history.back();
+        </script>";
     } else {
         // Hash the password
         $hashed_password = password_hash($password, PASSWORD_DEFAULT);
@@ -36,9 +32,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->bind_param("sss", $username, $hashed_password, $role);
 
         if ($stmt->execute()) {
-            echo "Registration successful! <a href='index.html'>Click here to login</a>";
+            echo "<script>
+                alert('Registrado exitosamente');
+                window.location.href = 'index.html';
+            </script>";
         } else {
-            echo "Error: " . $stmt->error;
+            echo "<script>
+                alert('Error: " . $stmt->error . "');
+                window.history.back();
+            </script>";
         }
     }
 

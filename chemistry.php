@@ -10,7 +10,7 @@ if (!isset($_SESSION['username']) || !isset($_SESSION['role'])) {
 <header>
       <link rel="stylesheet" href="styles.css">
     
-        <img src="logo_UMA.png" alt="UMA Logo" class="site-logo">
+        <img src="Images/logo_UMA.png" alt="UMA Logo" class="site-logo">
     </header>
 <head>
     <meta charset="UTF-8">
@@ -19,7 +19,7 @@ if (!isset($_SESSION['username']) || !isset($_SESSION['role'])) {
     <style>
         /* Page background styling */
         body#chemistry-page {
-            background: url('chem2.jpg') no-repeat center center/cover; /* Use the uploaded image */
+            background: url('Images/chem2.jpg') no-repeat center center/cover; /* Use the uploaded image */
             height: 100vh;
             margin: 0;
             padding: 0;
@@ -138,18 +138,18 @@ if (!isset($_SESSION['username']) || !isset($_SESSION['role'])) {
         <div class="anat-content">
             <h1>Prácticas de química</h1>
             <div class="practicals-buttons">
-                <a href="Chem Prac 1.php" class="anat-button">Práctica 1</a>
-                <a href="Chem Prac 2.php" class="anat-button">Práctica 2</a>
-                <a href="Chem Prac 3.php" class="anat-button">Práctica 3</a>
-                <a href="Chem Prac 4.php" class="anat-button">Práctica 4</a>
-                <a href="Chem Prac 5.php" class="anat-button">Práctica 5</a>
-                <a href="Chem Prac 6.php" class="anat-button">Práctica 6</a>
-                <a href="Chem Prac 7_8.php" class="anat-button">Práctica 7</a>
-                <a href="Chem Prac 7_8.php" class="anat-button">Práctica 8</a>
-                <a href="Chem Prac 9.php" class="anat-button">Práctica 9</a>
-                <a href="chem prac 10 & 11.php" class="anat-button">Práctica 10</a>
-                <a href="chem prac 10 & 11.php" class="anat-button">Práctica 11</a>
-                <a href="Chem Prac 12.php" class="anat-button">Practical 12</a>
+                <a href="Chemistry_Prac_Templates/Chem Prac 1.php" class="anat-button">Práctica 1</a>
+                <a href="Chemistry_Prac_Templates/Chem Prac 2.php" class="anat-button">Práctica 2</a>
+                <a href="Chemistry_Prac_Templates/Chem Prac 3.php" class="anat-button">Práctica 3</a>
+                <a href="Chemistry_Prac_Templates/Chem Prac 4.php" class="anat-button">Práctica 4</a>
+                <a href="Chemistry_Prac_Templates/Chem Prac 5.php" class="anat-button">Práctica 5</a>
+                <a href="Chemistry_Prac_Templates/Chem Prac 6.php" class="anat-button">Práctica 6</a>
+                <a href="Chemistry_Prac_Templates/Chem Prac 7_8.php" class="anat-button">Práctica 7</a>
+                <a href="Chemistry_Prac_Templates/Chem Prac 7_8.php" class="anat-button">Práctica 8</a>
+                <a href="Chemistry_Prac_Templates/Chem Prac 9.php" class="anat-button">Práctica 9</a>
+                <a href="Chemistry_Prac_Templates/chem prac 10 & 11.php" class="anat-button">Práctica 10</a>
+                <a href="Chemistry_Prac_Templates/chem prac 10 & 11.php" class="anat-button">Práctica 11</a>
+                <a href="Chemistry_Prac_Templates/Chem Prac 12.php" class="anat-button">Practical 12</a>
             </div>
         </div>
     </section>
