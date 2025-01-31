@@ -1,10 +1,10 @@
 <?php
 // Database connection settings
-$sname = "localhost";
-$uname = "root";
-$db_password = "Captain@56";
-$db_name = "virtual_lab_sim";
-$port = 3307;
+$sname = 'rubicon-b.vis-hosting.com';
+$uname = 'simulador';
+$db_password = 'iRX0YiTwJyiko4G';
+$db_name = 'simulador';
+$port = 3306;
 
 // Create a connection using the provided settings
 $conn = mysqli_connect($sname, $uname, $db_password, $db_name, $port);
