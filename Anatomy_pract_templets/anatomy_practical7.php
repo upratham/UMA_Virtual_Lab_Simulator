@@ -185,7 +185,7 @@ $practical_number = "A7"
             <h3>Encantado</h3>
             <ul>
                 <li><a href="#SISTEMA ENDOCRINO">SISTEMA ENDOCRINO</a></li>
-                <li><a href="#Cuestionario">Cuestionario</a></li>
+           
                 <li><a href="#SISTEMA REPRODUCTOR">SISTEMA REPRODUCTOR</a></li>
                 <li><a href="#Cuestionario">Cuestionario</a></li>
             </ul>
