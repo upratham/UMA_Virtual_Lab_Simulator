@@ -265,7 +265,7 @@ $practical_number = "B3"
                     Más que una reacción es una coloración de lípidos que se puede observar mejor cuando se hace diferencia con una fase acuosa.</p>
 
                     <div class="image-container">
-                        <img src="Photos\Biology Diagrams\Prac 3\7.jpg" alt="Example Image" style="width: 300px; height: 300px;" class="center">
+                        <img src="Photos\Biology Diagrams\Prac 3\7.png" alt="Example Image" style="width: 300px; height: 300px;" class="center">
                     </div>
                     
                     <p>La reacción positiva será aquella que presente dos fases; una fase rojo cereza donde se encuentran los lípidos y debajo de esta, una fase translúcida donde se encuentra el agua.
@@ -432,7 +432,7 @@ $practical_number = "B3"
                 </div>   
                 
                 <div class="image-container">
-                    <img src="Photos\Biology Diagrams\Prac 3\9.jpg" alt="Example Image" class="center">
+                    <img src="Photos\Biology Diagrams\Prac 3\9.png" alt="Example Image" class="center">
                 </div> 
                 
                 <h3 id="PROCEDIMIENTO">3.5	PROCEDIMIENTO </h3> 
@@ -484,8 +484,8 @@ $practical_number = "B3"
     </ul>
     <div style="display: flex; gap: 20px; align-items: center;">
         <div>
-            <img src="Photos\Biology Diagrams\Prac 3\10.jpg" alt="Muestra en tubo" class="left">
-            <img src="Photos\Biology Diagrams\Prac 3\11.jpg" alt="Muestra con reactivo" class="right">
+            <img src="Photos\Biology Diagrams\Prac 3\10.png" alt="Muestra en tubo" class="left">
+            <img src="Photos\Biology Diagrams\Prac 3\11.png" alt="Muestra con reactivo" class="right">
         </div>
     </div>
     <h3 id="PREPARACIÓN DE LOS TUBOS CONTROLES">PREPARACIÓN DE LOS TUBOS CONTROLES</h3>
@@ -575,7 +575,7 @@ $practical_number = "B3"
     <br>
     <p>Para los tubos controles, a manera de síntesis, completa la información en la tabla 2:</p>
     <div>
-        <img src="Photos\Biology Diagrams\Prac 3\12.jpg" alt="Muestra en tubo" class="center">
+        <img src="Photos\Biology Diagrams\Prac 3\12.png" alt="Muestra en tubo" class="center">
     </div>
 
     <h3 id="CUESTIONARIO">VI.	CUESTIONARIO</h3>
