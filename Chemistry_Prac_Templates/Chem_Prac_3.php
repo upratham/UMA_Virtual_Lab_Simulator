@@ -177,7 +177,7 @@ $practical_number = "C3"
         <section id="practical-content">
             <div clase="contenido">
                 <h1> Práctica 3 de Química: Operaciones clave</h1>
-                <a href='Simulation/chem_sim_3.php'      class="styled-button">Simulation</a>
+              
                 <h2 id="OBJETIVOS">1. OBJETIVOS</h2>
                 <ul>
                     <li>Reconocer e identificar los principales materiales en el laboratorio.</li>
