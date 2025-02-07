@@ -258,7 +258,7 @@ $practical_number = "B7"
                 </div>
                 <p>Solución Isotónica: Si la célula se encuentra en una solución isotónica, es decir, el contenido de solutos es igual tanto en el exterior como en el interior de la célula, esta se encontrará en equilibrio dinámico, esto significa que la entrada y salida de las moléculas de agua será constante.</p>
                 <div class="image-container">
-                    <img src="" alt="Fowler position" class="center">
+                    
                 </div>
                 <p>Solución Hipertónica: Si la célula se encuentra en una solución hipotónica, es decir, el contenido de solutos es menor (mayor concentración de agua libre) del que hay en el interior de la célula, ésta empezará a ganar agua, a este fenómeno se le llama turgencia.</p>
                 <div class="image-container">
