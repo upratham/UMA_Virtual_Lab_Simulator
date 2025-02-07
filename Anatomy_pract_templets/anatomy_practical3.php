@@ -285,15 +285,7 @@ $practical_number = "A3"
             <div class="image-container">
                 <img src="Anatomy images\Prac_3\heart_wall.png" alt="heart_wall" class="heart_wall" style= "width: 500px"; >
             </div><br><br><br><br><br>
-            <h2 id="Questionnaire">Cuestionario</h2>
-                
-                <div>
-                    <form action="questionnaire.php" method="GET">
-                        <!-- Pass the practical number as a GET parameter -->
-                        <input type="hidden" name="practical_number" value="<?php echo htmlspecialchars($practical_number); ?>">
-                        <button type="submit" class="styled-button">Ir al cuestionario</button>
-                    </form>
-                </div>
+          
             <!-- Respiratory System Section -->
             <h3 id="respiratory-system">SISTEMA RESPIRATORIO</h3>
             <h4>OBJETIVOS</h4>
