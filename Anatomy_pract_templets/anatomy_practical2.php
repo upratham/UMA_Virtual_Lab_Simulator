@@ -306,7 +306,7 @@ $practical_number = "A2"
                     <li><strong>Articulaciones giratorias:</strong>las articulaciones giratorias, como las del cuello, permiten un movimiento de rotación limitado.</li><br>
                     <li><strong> Articulaciones elipsoidales:</strong>Las articulaciones elipsoidales, como la articulación de la muñeca, permiten todo tipo de movimientos excepto movimientos rotatorios.</li><br>
                      <div class="image-container">
-                        <img src="../Anatomy images\Prac_2\skull_.jpg" alt="skull" class="skull-image" style="width: 600px;">
+                        <img src="Anatomy images\Prac_2\skull_.jpg" alt="skull" class="skull-image" style="width: 600px;">
                     </div>
                 </ul>
 
