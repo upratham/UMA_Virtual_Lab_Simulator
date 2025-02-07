@@ -262,7 +262,8 @@ $practical_number = "B7"
                 </div>
                 <p>Solución Hipertónica: Si la célula se encuentra en una solución hipotónica, es decir, el contenido de solutos es menor (mayor concentración de agua libre) del que hay en el interior de la célula, ésta empezará a ganar agua, a este fenómeno se le llama turgencia.</p>
                 <div class="image-container">
-                    <img src="Photos\Biology Diagrams\Prac 7\10.png" alt="Fowler position" class="center">
+         
+                     <img src="Photos\Biology Diagrams\Prac 7\10.png" alt="Fowler position" class="center">
                 </div>
 
                 <h3 id="DIÁLISIS">2.5	DIÁLISIS</h3>
